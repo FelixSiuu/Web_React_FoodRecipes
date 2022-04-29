@@ -4,8 +4,8 @@ import styled from 'styled-components'
 const FooterStyle = styled.div`
   width: 100%;
   height: 10rem;
-  margin-top: 8rem;
   display: flex;
+  margin-top: 2rem;
   justify-content: center;
   align-items: center;
   background: linear-gradient(to right,#02b35a,#00843c);

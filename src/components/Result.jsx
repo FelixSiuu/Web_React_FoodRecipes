@@ -8,8 +8,8 @@ import ResultItem from './ResultItem.jsx'
 import Random from './Random.jsx'
 
 const ResultStyle = styled.div`
+  margin-top: 1rem;
   width: 60rem;
-  margin-top: 2rem;
   display: flex;
   flex-direction: column;
 `
@@ -20,10 +20,12 @@ const Title = styled.div`
 `
 const ResultContainer = styled.div`
   display: flex;
-  gap: 1rem;
+  gap: 3rem 2rem;
   justify-content: space-between;
   flex-wrap: ${props => props.wrap || 'nowrap'};
 `
+
+
 
 export default connect(
   state => ({
@@ -57,6 +59,7 @@ export default connect(
         }
         getPopularRecipes()
       }
+      props.getSearchAction([])
     },[])
 
     return (

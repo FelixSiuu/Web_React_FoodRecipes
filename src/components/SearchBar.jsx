@@ -8,7 +8,14 @@ import { GiMagnifyingGlass } from "react-icons/gi";
 const SearchBarStyle = styled.div`
   width: 40rem;
   display: flex;
-  position: relative;
+  position: absolute;
+  top: 40rem;
+  box-shadow: 0 15px 15px 15px rgba(0,0,0,.5);
+  z-index: 99;
+  border-radius; 2px solid;
+  background: #444444;
+  overflow: hidden;
+  border-radius: 6px;
 `
 const Icon = styled.div`
   position: absolute;
@@ -26,12 +33,11 @@ const Input = styled.input`
   width: 100%;
   height: 2.5rem;
   padding-left: 2.875rem;
-  background: #444444;
   color: white;
   font-size: 1.125rem;
   outline: none;
   border: 2px solid #444444;
-  border-radius: 6px;
+  background: #444444;
 `
 
 export default connect(

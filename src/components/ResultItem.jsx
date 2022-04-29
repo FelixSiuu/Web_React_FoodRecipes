@@ -25,7 +25,7 @@ const Item = styled.div`
   &:hover{
     animation: ${expand} 300ms ease;
     animation-fill-mode: forwards;
-    z-index: 99;
+    z-index: 9;
   }
 `
 const Title = styled.div`

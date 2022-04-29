@@ -4,7 +4,7 @@ import Header from './components/Hedaer'
 import NavBar from './components/NavBar'
 import SearchBar from './components/SearchBar'
 import Result from './components/Result.jsx'
-import Footer from './components/Footer.jsx'
+import Footer from './components/Footer';
 
 const AppStyle = styled.div`
   padding-top: 5rem;
@@ -19,7 +19,7 @@ const AppStyle = styled.div`
 function App() {
   const variants = {
     hidden: { opacity: 0 },
-    visible: { opacity: 1 },
+    visible: { opacity: 1, zIndex: 9 },
   }
 
   return (

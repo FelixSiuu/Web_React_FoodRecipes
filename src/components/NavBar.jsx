@@ -7,6 +7,7 @@ import NavBarData from '../data/NavBarData'
 import { searchRecipes } from '../apis/request.js'
 
 const NavBarStyle = styled.div`
+  margin-top: 41rem;
   display: flex;
   justify-content: center;
   gap: 0 2rem;
