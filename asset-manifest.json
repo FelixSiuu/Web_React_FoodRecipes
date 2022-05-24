@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "./static/js/main.6bee6c8a.js",
+    "static/media/banner.webp": "./static/media/banner.9577f66aa7130eac2095.webp",
+    "index.html": "./index.html",
+    "main.6bee6c8a.js.map": "./static/js/main.6bee6c8a.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.6bee6c8a.js"
+  ]
+}
